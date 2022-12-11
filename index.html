@@ -4,6 +4,22 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#">About</a>
+
+			<div class="footer">
+				OWO &nbsp;
+				<label class="switch">
+					<input type="checkbox" id="uwuOwo" onchange="uwu()" />
+					<span class="slider round"></span>
+				</label>
+				&nbsp; uwu
+			</div>
+		</div>
+
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+
 		<div class="wrapper">
 			<script src="scream.js"></script>
 
@@ -16,14 +32,6 @@
 				<button class="button" id="screamButton" onclick="scream()">Scream</button>
 			</div>
 			<div class="thevoid" id="thevoid"></div>
-			<div class="footer">
-				OWO &nbsp;
-				<label class="switch">
-					<input type="checkbox" id="uwuOwo" onchange="uwu()" />
-					<span class="slider round"></span>
-				</label>
-				&nbsp; uwu
-			</div>
 		</div>
 	</body>
 </HTML>
