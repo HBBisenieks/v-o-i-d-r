@@ -7,6 +7,7 @@ Still to do:
 - [x] Keep the void from overflowing into the left column if your shout is too long
 - [x] Move the uwu/OWO selector ~~to a collabsible menu~~
 - [x] Move the OWO/uwu selector to a collabsible menu
-- [ ] Make an about page/modal
+- [x] Make an about page/modal
 - [x] Fix font-size stuff
+- [ ] Make the thing responsive for mobile?
 - [ ] Docker-compose file for folks who want to run their own in a container???

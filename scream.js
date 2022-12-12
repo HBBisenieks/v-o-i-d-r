@@ -1,5 +1,6 @@
 var output = '';
 var intervalID = 0;
+var aboutModal = document.getElementById("aboutModal")
 
 function scream()
 {
@@ -48,10 +49,24 @@ function uwu()
 	}
 }
 
-function openNav() {
+function openNav()
+{
 	document.getElementById("mySidenav").style.width = "300px";
 }
   
-function closeNav() {
+function closeNav()
+{
 	document.getElementById("mySidenav").style.width = "0";
 }
+
+function openAboutModal()
+{
+	document.getElementById("aboutModal").style.display = "block";
+	closeNav();
+}
+
+function closeAboutModal()
+{
+	document.getElementById("aboutModal").style.display = "none";
+}
+

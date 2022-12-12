@@ -5,8 +5,8 @@
 	</head>
 	<body>
 		<div id="mySidenav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<a href="#">About</a>
+			<a href="javascript:void(0)" class="closeNav" onclick="closeNav()">&times;</a>
+			<a href="#" onclick="openAboutModal()">About</a>
 
 			<div class="footer">
 				OWO &nbsp;
@@ -32,6 +32,47 @@
 				<button class="button" id="screamButton" onclick="scream()">Scream</button>
 			</div>
 			<div class="thevoid" id="thevoid"></div>
+		</div>
+
+		<div id="aboutModal" class="aboutModal">
+			<!-- Modal content -->
+			<div class="modal-content">
+			  	<div class="modal-header">
+					<span class="closeModal" onclick="closeAboutModal()">&times;</span>
+			  	</div>
+			  	<div class="modal-body">
+					<h3>What the <i>hell,</i> Richard?</h3>
+					<p>
+						Look. I commit to the bit.
+					</p>
+					<p>
+						Ok, but to spell it out a bit more: I made a joke on Mastodon, to whit:
+					</p>
+					<p>
+						"my new social network will take your status updates and pipe them Directly to /dev/null <br/>angel investors, call me"
+					</p>
+					<p>
+						and then things got a little out of hand. Friends egged me on. Lord forgive me, but I was fully on my behavior.
+					</p>
+					<h3>Ok, but what the hell am I looking at?</h3>
+					<p>
+						v o i d r  is the only social network that takes the idea of screaming into the void seriously. No followers, no trending topics, 
+						no bullshit. Type out your status (with no character limits!), hit the "Scream" button, and watch your words fade gracefully away 
+						into the void before being deleted.
+					</p>
+					<h3>Alright, bozo, who the fuck are you, though?</h3>
+					<p>
+						I'm author, podcaster, and general nuisance <a href="https://hilarybisenieks.com">Hilary B. Bisenieks</a>. Since 2019, I've been 
+						the host of <a href="http://trunkcast.com">Tales from the Trunk: Reading the Stories that Didn't Made It</a>, a podcast about 
+						the writing life, which features conversations with and readings from a diverse mix of established and up-and-coming science fiction, 
+						fantasy, horror, and other genre authors.
+					</p>
+					<h3>Ok, but really, y tho?</h3>
+					<p>
+						Am I not permitted to have fun?
+					</p>
+			  	</div>
+			</div>
 		</div>
 	</body>
 </HTML>
