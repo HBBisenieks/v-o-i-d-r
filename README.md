@@ -10,7 +10,7 @@ Still to do:
 - [x] Make an about page/modal
 - [x] Fix font-size stuff
 - [ ] Make the thing responsive for mobile?
-- [ ] Docker-compose file for folks who want to run their own in a container???
+- [x] Docker~~-compose~~ file for folks who want to run their own in a container??? **Done** thanks to [Matt Perkins](https://github.com/HBBisenieks/v-o-i-d-r/pull/1)
 
 ## Docker instructions
 They told us we were fools. They told us the void could not be contained. But we ignored them all. Will we ever pay for our hubris? Perhaps someday, but not today.
