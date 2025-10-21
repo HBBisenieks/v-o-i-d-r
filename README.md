@@ -5,8 +5,8 @@ Created as a [joke on Mastodon](https://wandering.shop/@HBBisenieks/109474511388
 
 Still to do:
 - [x] Keep the void from overflowing into the left column if your shout is too long
-- [x] Move the uwu/OWO selector ~~to a collabsible menu~~
-- [x] Move the OWO/uwu selector to a collabsible menu
+- [x] Move the uwu/OWO selector ~~to a collapsible menu~~
+- [x] Move the OWO/uwu selector to a collapsible menu
 - [x] Make an about page/modal
 - [x] Fix font-size stuff
 - [ ] Make the thing responsive for mobile?
